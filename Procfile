@@ -1,0 +1,1 @@
+web: java -jar target/Spring-mvc-1.0.jar
