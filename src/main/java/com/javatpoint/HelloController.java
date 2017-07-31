@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;  
 @Controller  
+@RequestMapping("/")
 class HelloWorldController {  
-    @RequestMapping("/add")  
+    @RequestMapping("/SpringMVC/add")  
     public ModelAndView helloWorld(
     		@RequestParam(value="t1") int i ,
     		@RequestParam(value="t2") int j) {
